@@ -1,0 +1,172 @@
+*,
+:after,
+:before,
+::backdrop {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+:host {
+  line-height: 1.5;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-overflow-style: scrollbar;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('./CORBEL.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('./CORBELB.TTF') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('./CORBELI.TTF') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('./CORBELZ.TTF') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+html,
+:host,
+body {
+  tab-size: 4;
+  -o-tab-size: 4;
+  -moz-tab-size: 4;
+
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  font-size: 16px;
+  font-synthesis: none;
+
+  font-family: 'Corbel', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: inherit;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+[tabindex='-1']:focus {
+  outline: 0 !important;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+::-webkit-inner-spin-button {
+  height: auto;
+}
+
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+::-webkit-date-and-time-value {
+  min-height: 1lh;
+  text-align: inherit;
+}
+
+::-webkit-datetime-edit {
+  display: inline-flex;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}
+
+::-webkit-datetime-edit-year-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-month-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-day-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-hour-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-minute-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-second-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-millisecond-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+::-webkit-datetime-edit-meridiem-field {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
