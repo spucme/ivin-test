@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   width: 120%;
   height: 200px;
@@ -20,7 +24,7 @@ header {
   bottom: 100%;
   margin-top: -250px;
   left: -50%;
-  transform: translateX(45%);
+  transform: translateX(39%);
 }
 
 .mid1 {
@@ -141,10 +145,12 @@ header {
   top: 17px;
 }
 
-.info{
+.info {
   text-align: center;
   position: relative;
   top: -120px;
+  left: -50%;
+  transform: translateX(42%);
 }
 
 .info2 {
@@ -179,11 +185,87 @@ header {
 }
 
 
+.myworks {
+  margin: auto;
+  position: relative;
+  width: 50%;
+  transform: translateX(-99%);
+  left: 50%;
+  top: 400px;
+  text-align: center;
+}
+
+.myworks h2 {
+  color: white;
+}
+
+.mywimg {
+  width: 100%;
+  position: relative;
+  bottom: 100%;
+}
+
+.mywdiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color-teal-400);
+  align-items: center;
+}
+
+.mywdiv p {
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  padding: 7px;
+}
+
+.mywdiv p:hover {
+  background-color: var(--color-teal-500);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 490px) {
   .mid1 {
     top: -50px;
     display: block;
     margin: auto;
+    left: 20px;
   }
 
   .mid2info {
@@ -196,18 +278,41 @@ header {
   .mid2 {
     margin: auto;
     top: -10px;
+    left: 10px;
   }
 
   .mid3 {
     margin: auto;
     top: -10px;
+    left: 10px;
   }
 
-  .mid3 tr, td {
+  .mid3 tr,
+  td {
     font-size: 15px;
   }
 
   .mid3 table {
     left: 0px;
+  }
+
+  .myworks {
+    margin-top: 500px;
+    width: 90%;
+    transform: translateX(-55.5%);
+    left: 50%;
+  }
+}
+
+
+@media (max-width: 838px) {
+  .myworks {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .myworks {
+    margin-top: 500px;
   }
 }
