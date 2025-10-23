@@ -7,7 +7,7 @@
 }
 
 header {
-  width: 101%;
+  width: 120%;
   height: 200px;
 }
 
@@ -180,5 +180,34 @@ header {
 
 
 @media (max-width: 490px) {
-  
+  .mid1 {
+    top: -50px;
+    display: block;
+    margin: auto;
+  }
+
+  .mid2info {
+    font-size: 18px;
+    text-align: right;
+    width: 170px;
+    margin-right: 10px;
+  }
+
+  .mid2 {
+    margin: auto;
+    top: -10px;
+  }
+
+  .mid3 {
+    margin: auto;
+    top: -10px;
+  }
+
+  .mid3 tr, td {
+    font-size: 15px;
+  }
+
+  .mid3 table {
+    left: 0px;
+  }
 }
