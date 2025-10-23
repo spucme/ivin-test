@@ -184,7 +184,6 @@ header {
   width: 85px;
 }
 
-
 .myworks {
   margin: auto;
   position: relative;
@@ -223,44 +222,11 @@ header {
   background-color: var(--color-teal-500);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 490px) {
+  body {
+    overflow-x: auto;
+  }
+
   .mid1 {
     top: -50px;
     display: block;
@@ -303,7 +269,6 @@ header {
     left: 50%;
   }
 }
-
 
 @media (max-width: 838px) {
   .myworks {
