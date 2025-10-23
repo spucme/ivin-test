@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   bottom: 100%;
   margin-top: -250px;
   left: -50%;
@@ -31,6 +31,8 @@ header {
   display: flex;
   position: relative;
   flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .midciti {
@@ -59,6 +61,8 @@ header {
   display: flex;
   position: relative;
   flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .mid2info {
@@ -117,6 +121,8 @@ header {
   display: flex;
   position: relative;
   flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .mid3h1 {
@@ -270,13 +276,13 @@ header {
   }
 }
 
-@media (max-width: 838px) {
+@media (max-width: 855px) {
   .myworks {
     margin-top: 250px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 506px) {
   .myworks {
     margin-top: 500px;
   }
