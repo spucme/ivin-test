@@ -6,9 +6,9 @@
   width: 100%;
 }
 
-body {
+body, html {
   overflow-x: hidden;
-  
+  height: 99vh;
 }
 
 header {
@@ -229,6 +229,115 @@ header {
   background-color: var(--color-teal-500);
 }
 
+.katalog {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(var(--color-teal-400), white);
+  bottom: 50px;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+.knamee {
+  margin: auto;
+  font-size: 25px;
+  background: white;
+  color: var(--color-fuchsia-950);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+  border-bottom: 5px solid var(--color-teal-700);
+  position: relative;
+  top: 50px;
+  width: 200px;
+  z-index: 2;
+}
+
+
+.katalog img {
+  width: 270px;
+  height: 170px;
+}
+
+
+.katalog div {
+  padding: 10px;
+  position: relative;
+  top: 100px;
+  margin-top: 50px;
+}
+
+
+.katalog div p {
+  width: 90px;
+  font-size: 13px;
+  margin: auto;
+  text-align: center;
+}
+
+.katalog div h1 {
+  font-family: 
+    -apple-system, 
+    BlinkMacSystemFont, 
+    'Segoe UI', 
+    Roboto, 
+    sans-serif;
+  font-weight: 300;
+}
+
+
+.katalog div a {
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 2px;
+  position: relative;
+  top: 20px;
+}
+
+.co1 {
+  background: var(--color-teal-400);
+}
+
+.co2 {
+  background: var(--color-teal-500);
+}
+
+.co3 {
+  background: var(--color-teal-600);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 490px) {
   body {
     overflow-x: auto;
@@ -276,8 +385,9 @@ header {
     left: 50%;
   }
 
-  .info, .info1, .info2 {
-    width: 460px;
+  .info1, .info2 {
+    width: 350px;
+    margin: auto;
   }
 }
 
@@ -291,4 +401,8 @@ header {
   .myworks {
     margin-top: 500px;
   }
+}
+
+@media (max-width: 1160px) {
+  
 }
