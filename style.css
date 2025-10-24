@@ -8,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  
 }
 
 header {
@@ -273,6 +274,10 @@ header {
     width: 90%;
     transform: translateX(-55.5%);
     left: 50%;
+  }
+
+  .info, .info1, .info2 {
+    width: 460px;
   }
 }
 
